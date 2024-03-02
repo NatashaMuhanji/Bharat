@@ -9,6 +9,13 @@ body {
     height: 90vh;
 }
 
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
 /* Header Style */
 #header{
     top: 0;
@@ -46,7 +53,7 @@ body {
 #navbar li a i.active,
 #navbar li a:hover,
 #navbar li a.active{
-    color: rgb(9, 175, 9);
+    color: rgb(0, 0, 0);
 }
 
 #navbar li a.active::after,
@@ -56,7 +63,7 @@ body {
     content: "";
     width: 40%;
     height: .125rem;
-    background: rgb(9, 175, 9);
+    background: rgb(0, 0, 0);
     position: absolute;
     bottom: -.25rem;
     left: 1.25rem;
