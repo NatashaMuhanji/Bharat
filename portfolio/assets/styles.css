@@ -145,7 +145,7 @@ section#skills .skills-heading{
 }
 section#skills .devs{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 section#skills .devs .dev{
     padding-right: 50px;
