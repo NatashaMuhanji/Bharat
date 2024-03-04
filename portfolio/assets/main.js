@@ -16,3 +16,7 @@ if (close) {
         nav.classList.remove("active");
     });
 }
+
+
+//footer year
+year=document.querySelector("#contact > div.year > p > span#year").innerHTML = new Date().getFullYear();

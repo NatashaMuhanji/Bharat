@@ -5,25 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhanji</title>
     <link rel="stylesheet" href="assets/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
     <!-- header -->
     <section id="header">
-        <a href=""><img src="assets/image/logo.png" alt="logo" class="logo" width="60px"></a>
+        <a href="#"><p>Muhanji</p></a>
         <div>
             <ul id="navbar">
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contacts</a></li>
-                <li id="lg-bag"><a href="cart.html"><i class="ri-shopping-cart-2-line"></i></a></li>
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contacts</a></li>
                 <a href="#" id="close"><i class="ri-close-line"></i></a>
             </ul>
         </div>
         <div class="mobile">
-            <a href="cart.html"><i class="ri-shopping-cart-2-line"></i></a>
             <i id="bar" class="ri-menu-unfold-line"></i>
+        </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="general-padding" id="intro">
+        <div class="intro">
+            <h1>Hello, my name is <span id="name">Natasha</span>,</br>
+            I am a <span id="dev">Software Developer</span>.</h1>
+        </div>
+    </section>
+
+    <section class="general-padding" id="about">
+        <div class="about-info">
+            <div class="about-image">
+                <img src="assets/images/coder-girl.png" alt="">
+            </div>
+            <div class="about-content">
+                <div class="about-paragraph">
+                    <div class="about-heading">
+                        <h2>About Me</h2>
+                    </div>
+                    <p>I have experience in building Web Apps from Web Development and Design internships, where i gained experince in working with JavaScript / React / Node.js / Express.js and some other cool libraries and frameworks.</p>
+                </div>
+                <div class="about-links">
+                    <a href="#contact">Contact Me</a>
+                    <a href="">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="general-padding" id="skills">
+        <div class="skills-heading">
+            <h2>Skills</h2>
+        </div>
+        <div class="devs">
+            <div id="front-dev" class="dev">
+                <h3>Frontend Dev</h3>
+            </div>
+            <div id="back-dev" class="dev">
+                <h3>Backend Dev</h3>
+            </div>
+            <div id="framework" class="dev">
+                <h3>Frameworks</h3>
+            </div>
+            <div id="other-dev" class="dev">
+                <h3>Other Techs</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="general-padding" id="contact">
+        <div class="sub-contact">
+            <div class="contact-info">
+              <h2>Reach Out to me</h2>
+              <p>Let's connect and explore how we can collaborate or discuss how to turn your ideas into reality, my inbox is open for all.</p>
+              <h3>Frontend Developer 👩🏾‍💻| Social Media Manager 👩🏾‍💼| Geeksster 👩🏾‍🔬|</h3>
+              <p>📍 Nairobi, Kenya</p>
+              <p>Open for Opportunities</p>
+              <p><i class="ri-github-fill"></i><i class="ri-linkedin-box-fill"></i><i class="ri-twitter-x-fill"></i></p>
+            </div>
+            <div class="contact-image">
+              <img src="assets/images/" alt="Me:Natasha">
+            </div>
+        </div>
+        <div class="year">
+            <p class="rights">© Copyrights <span id="year"></span> Muhanji</p>
         </div>
     </section>
 
